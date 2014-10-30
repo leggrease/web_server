@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		 <link rel="stylesheet" type="text/css" href="/myStyle.css">
+	</head>
+	<body>
+		<header class="ontop">
+			<h1>Manny's CRM</h1>
+		</header>
+		<ul class="navbar">
+			<li><a href="/contacts">View all contacts</a></li>
+			<li><a href="/contacts/new">Add a contact</a></li>
+			<li><a href="/">Back to menu</a></li>
+		</ul>
+			<%=yield%>
+		<footer>
+			<%=Time.now%>
+		</footer>
+	</body>
+<html>

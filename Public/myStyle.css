@@ -1,0 +1,79 @@
+.ontop {	
+	font-family: Arial;
+	color: #FFFFE6;
+	border: 5px solid #4A3D2C;
+	background-color: #4A3D2C;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 32px;
+	-webkit-text-stroke: 2px #482400;
+}
+
+.contactstable {
+	margin: auto;
+	border-spacing: 40px 10px;
+	table-layout: fixed; width: 800px;
+
+}
+
+
+.navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color: #FFFFCC;
+	
+}
+
+.navbar li {
+	display: inline;
+	font-family: arial;
+	margin-right: 15px;
+	margin-left: 15px;
+
+}
+
+body {
+	background-color: #246B47;
+	text-align: center;
+
+}
+
+ul  {
+ padding-left:0;   
+}
+
+ul li  {
+ list-style-position:inside;
+}
+
+form {
+	display: inline-block;
+	text-align: center;
+}
+
+
+a:link {
+    color: #FFFFCC;
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: #993300;
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+a:active {
+    color: #B2D1D1;
+    text-decoration: none;
+}
