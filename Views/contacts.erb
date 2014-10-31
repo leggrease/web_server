@@ -10,6 +10,7 @@
 					<td>Last Name</td>
 					<td>Email</td>
 					<td>Note</td>
+					<td>Contact ID</td>
 				</tr>
 		</table>
 			<% $rolodex.contacts.each do |contact| %>
@@ -19,6 +20,7 @@
 					<td><%= contact.last_name %></td> 
 					<td><%= contact.email %></td> 
 					<td><%= contact.note %></td>
+					<td><%= contact.id %></td>
 				</tr>
 		</table>
 		<% end %>
