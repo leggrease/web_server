@@ -11,6 +11,7 @@
 					<td>Email</td>
 					<td>Note</td>
 					<td>Contact ID</td>
+					<td>
 				</tr>
 		</table>
 			<% $rolodex.contacts.each do |contact| %>
@@ -21,6 +22,7 @@
 					<td><%= contact.email %></td> 
 					<td><%= contact.note %></td>
 					<td><%= contact.id %></td>
+					<td class="button"><a href="/contacts/<%=contact.id%>">View contact</a></td>
 				</tr>
 		</table>
 		<% end %>
